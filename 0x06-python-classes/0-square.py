@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-class Square:
-    """Class Square that defines a square.
-    """
-    pass
+"""Module for lookup function"""
+
+
+def lookup(obj):
+    """It returns the list of available attributes and methods of an object"""
+    return dir(obj)
