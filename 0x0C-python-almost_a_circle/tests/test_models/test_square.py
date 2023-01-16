@@ -161,6 +161,7 @@ class TestSquare_size(unittest.TestCase):
             Square(0, 2)
 
 
+
 class TestSquare_x(unittest.TestCase):
     """Unittests for testing initialization of Square x attribute."""
 
@@ -338,7 +339,6 @@ class TestSquare_area(unittest.TestCase):
             s.area(1)
 
 
-
 class TestSquare_stdout(unittest.TestCase):
     """Unittests for testing __str__ and display methods of Square class."""
 
@@ -422,8 +422,8 @@ class TestSquare_stdout(unittest.TestCase):
 
 
 class TestSquare_update_args(unittest.TestCase):
-    """Unittests for testing update args method of the Square class."""
 
+    """Unittests for testing update args method of the Square class."""
     def test_update_args_zero(self):
         s = Square(10, 10, 10, 10)
         s.update()
@@ -534,7 +534,7 @@ class TestSquare_update_args(unittest.TestCase):
 
 
 
-class TestSquare_update_kwargs(unittest.TestCase):
+    class TestSquare_update_kwargs(unittest.TestCase):
     """Unittests for testing update kwargs method of Square class."""
 
     def test_update_kwargs_one(self):
