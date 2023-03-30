@@ -1,1 +1,1 @@
-PYTHON HIGHER LEVEL lANGUAGE
+# Solutions to tasks on Python - Network #0
